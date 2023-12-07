@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    
+    <title>Mountain Lover</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="mobile-container">
+        <div class="topnav" id="topnav">
+            <div>
+                <a href="#home" class="active">
+                    <i class="fa-solid fa-mountain-sun fa-2xl" style="color: #6994dd;"></i>
+                </a>
+            </div>
+            <div class="myLinks" id="myLinks">
+                <div>
+                    <a><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a><i class="fa-brands fa-tiktok fa-xl"></i></a>
+                </div>
+                <div>
+                    <button class="navbar-listen-btn">listen</button>
+                </div>
+            </div>
+        </div>
+        <main>
+            <section>
+                <video class="video" id="background-video" autoplay loop muted="">
+                    <source src="images/mountains.mp4" type="video/mp4">
+                </video>
+                <h1>Welcome, Mountain Lovers!</h1>
+                <div class="list">
+                    <ul>
+                        <li>about me</li>
+                        <li>youtube</li>
+                        <li>book</li>
+                        <li>shop</li>
+                        <li>must haves</li>
+                        <li>podcast</li>
+                        <li>contact</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="book-release">
+                    <h4>2023's Best Mountain Hiking Spots coming out in...</h4>
+                    <div id="timer" class="timer"></div>
+                </div>
+            </section>
+            <section>
+                <div class="mailing-list">
+                    <h2 class="mailing-list-header">Join My Mailing List!</h2>
+                    <form>
+                        <input type="text" placeholder="First Name" required><br>
+                        <input type="text" placeholder="Last Name" required><br>
+                        <input type="email" placeholder="Email" required><br>
+                        <input type="submit" value="Submit" class="submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="copywrite">Copywrite © 2023 - Mountain Lover. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/cb972e1080.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
